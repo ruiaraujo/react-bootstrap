@@ -1,7 +1,6 @@
 import React from 'react';
 import Dropdown from './Dropdown';
-import omit from 'lodash-compat/object/omit';
-import pick from 'lodash-compat/object/pick';
+import { pick, omit } from 'lodash';
 import Button from './Button';
 
 class DropdownButton extends React.Component {
